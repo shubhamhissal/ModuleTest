@@ -1,0 +1,120 @@
+.mainpage {
+    height: 100vh;
+    width: 100vw;
+    background-color: #8CC461;
+    padding-top: 50px;
+}
+
+.scorecard {
+    width: 800px;
+    height: 158px;
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 13px;
+    border: 2px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.computerscore {
+    width: 130px;
+    height: 128px;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.computerscore b {
+    width: 103px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: rgba(101, 101, 101, 1);
+}
+
+.computerscore span {
+    width: 79px;
+    height: 63px;
+    padding-left: 35px;
+    font-family: Roboto;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(37, 37, 37, 1);
+
+}
+
+.yourscore {
+    width: 130px;
+    height: 128px;
+    top: 77px;
+    left: 881px;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.yourscore b {
+    width: 50px;
+    height: 16px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(101, 101, 101, 1);
+}
+
+.yourscore span {
+    width: 79px;
+    height: 63px;
+    padding-left: 35px;
+    font-family: Roboto;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(37, 37, 37, 1);
+}
+
+.optionSelectors{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.rock {
+    width: 110px;
+    height: 110px;
+}
+
+.scissor {
+    width: 110px;
+    height: 110px;
+    margin-left: 100px;
+}
+
+.paper {
+    width: 110px;
+    height: 110px;
+    /* padding-left: 30px;
+    margin-top: 100px; */
+}
+
